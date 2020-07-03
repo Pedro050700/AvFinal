@@ -44,5 +44,8 @@ public class Contact {
 	public void setCel(String cel) {
 		this.cel = cel;
 	}
+	
+	
+	}
 
-}
+

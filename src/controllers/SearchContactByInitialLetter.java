@@ -21,7 +21,7 @@ public class SearchContactByInitialLetter {
 		System.out.println("Inform the initial letter you wish to find:");
 		String initialName = sc.nextLine();
 		
-		String sql = "SELECT CONTATO FROM Contato AS CONTATO WHERE NOME LIKE'" + initialName + "%'";
+		String sql = "select contact from Contact as contact WHERE NAME LIKE'" + initialName + "%'";
 		
 		Query query = manager.createQuery(sql);
 		
